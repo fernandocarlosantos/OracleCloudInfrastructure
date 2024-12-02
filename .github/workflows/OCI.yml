@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: /usr/bin/bash
+        shell: bash
         working-directory: Terraform
     steps:
       - name: 'Checkout'
